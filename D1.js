@@ -66,8 +66,9 @@ console.log("Il valore della costante e': ", esempio);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("Esercizio 6: ");
-let ris = 4 - x;
-console.log("Il risultato dell' operazione 4 - ", x, " e': ", ris);
+let secNum = 4;
+let ris = secNum - x;
+console.log("Il risultato dell' operazione ", secNum, " - ", x, " e': ", ris);
 
 /* ESERCIZIO 7
 Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
