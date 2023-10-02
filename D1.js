@@ -89,6 +89,7 @@ let name1 = "john";
 let name2 = "John";
 let verifyDifference = name1 !== name2;
 myFunc(verifyDifference);
+name1 = name1.toLowerCase();
 name2 = name2.toLowerCase();
 verifyDifference = name1 !== name2;
 console.log("DOPO AVER APPLICATO IL METODO PER RENDERE ANCHE NAME2 LOWERCASE:");
